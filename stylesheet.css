@@ -1,9 +1,89 @@
-body {
-	font-family: Geneva;
-	background-color: #187199;
+@import 'https://fonts.googleapis.com/css?family=Oswald:700';
 
+body {
+	font-family: Oswald, Rockwell, Tahoma, sans-serif;
+	background-color: #1a2327;
+}
+
+a, a:onclick {
+	text-decoration: none;
+	color: #000;
 }
 
 #TopLine {
-	font-size: ;
+	font-size: 40px;
+	float: left;
+	color: #000;
+	position: absolute;
+	left: 40px;
+}
+
+.header {
+	height: 100px;
+	max-width: 100%;
+	position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: #1a2327;
+    z-index: 10000;
+}
+
+.Spaced {
+	height: 150px;
+	max-width: 100%;
+	background-color: transparent;
+}
+
+.follows {
+	display: block;
+	font-size: 30px;
+	color: #1a2327;
+	text-decoration: none;
+}
+
+.follows:hover {
+	color: #fff;
+	font-size: 35px;
+	border: 1px dashed #fff;
+} 
+
+.centered {
+	height: auto;
+	width: 1300px;
+	display: block;
+	margin: auto;
+	bottom: 20px;
+	background-color: #304954;
+	
+}
+
+.MyFace {
+	margin: auto;
+	height: 300px;
+	width: 300px;
+}
+
+.BoxedIn {
+	height: auto;
+	width: 600px;
+	margin: auto;
+	text-align: center;
+	background-color: transparent;
+}
+
+.Declaration {
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.SndDeclaration {
+	font-size: 35px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.SomeText {
+	font-size: 20px;
 }
