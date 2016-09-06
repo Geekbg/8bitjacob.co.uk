@@ -59,6 +59,7 @@ a, a:onclick {
 }
 
 .MyFace {
+	display: block;
 	margin: auto;
 	height: 300px;
 	width: 300px;
