@@ -89,3 +89,21 @@ a, a:onclick {
 .SomeText {
 	font-size: 20px;
 }
+
+.ScreenShot {
+	width: 500px;
+	height: auto;
+	position: relative;
+	left: 20px;
+	float: none;
+	border: 2px solid #000;	
+}
+
+.SubTitle {
+	font-size: 30px;
+	text-decoration: none;
+	text-align: left;
+	position: relative;
+	left: 20px;
+	color: #7bb3ff;
+}
