@@ -1,0 +1,185 @@
+body {
+  background: #30292c;
+}
+ path:hover
+{
+   opacity: 0.5;
+	  }
+#head {
+  fill: #c1b2a3;
+}
+
+#nose {
+  fill: #60432e;
+}
+
+#mouth {
+  fill: #d14d37;
+}
+
+#teeth path {
+  fill: #fff;
+}
+
+#eyes path {
+  fill: none;
+  stroke: #1b426d;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-opacity: 0.7;
+}
+
+body { background-color:#333; }
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+* {
+  box-sizing: border-box;
+}
+
+@primary: #;
+
+body {
+  background: #8899A6;
+  font-family: "AvenirNext-Regular", Avenir, Helvetica, Arial, sans-serif;
+}
+.loading-indicator {
+  animation: rotatefull 9s 0s infinite linear forwards;
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 1.3rem;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+svg {
+  animation: scaleup .5s 0s 1 ease-in-out forwards;
+
+  circle {
+    stroke: primary;
+    fill: none;
+    &:last-of-type {
+      opacity: 0;
+      stroke: #ddd;
+      //animation-fill-mode: forwards;
+      transition: stroke-dashoffset .5s ease-out;
+    }
+  }
+  
+  .complete & {
+    animation-name: scaledown;
+  }
+}
+
+p {
+  color: primary;
+  font-size: 2rem;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  right: 0;
+  .complete & {
+    animation: scaledown .5s 0s 1 ease-in-out forwards;
+  }
+}
+
+
+@keyframes rotatefull {
+  0% {
+    transform: translate3d(-50%, 0, 0) rotate(0);
+  }
+  20% {
+    transform: translate3d(-50%, 0, 0) rotate(72deg);
+  }
+  40% {
+    transform: translate3d(-50%, 0, 0) rotate(144deg);
+  }
+  60% {
+    transform: translate3d(-50%, 0, 0) rotate(216deg);
+  }
+  80% {
+    transform: translate3d(-50%, 0, 0) rotate(288deg);
+  }
+  99%, 100% {
+    transform: translate3d(-50%, 0, 0) rotate(360deg);
+  }
+}
+
+@keyframes scaleup {
+  0% {
+    transform: scale(.1);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  72% {
+    transform: scale(1.1);
+  }
+  84% {
+    transform: scale(.95);
+  }
+  98% {
+    transform: scale(1);
+  }
+  99% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }  
+}
+
+@keyframes scaledown {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  15% {
+    transform: scale(1.2);
+  }
+  60% {
+    opacity: 1;
+  }
+  99%, 100% {
+    transform: scale(.1);
+    opacity: 0;
+  }
+  
+}
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
