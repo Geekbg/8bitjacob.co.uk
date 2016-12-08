@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+	background-image: url(http://lh4.ggpht.com/_jFM-Fd8NDFE/S8HKpl-0HVI/AAAAAAAADM8/QPf9O_2Y9zk/s1600/Old%20Paper-1.jpg);
+	background-size: 450px 100%;
+	font-family: 'Amatic SC', 'Bernard MT Condensed', Arial, Tahoma, Helvetica, sans-serif;
+	height: 200%;
+}
+
+.PAGEONE {
+	width: 400px;
+	height: 100%;
+}
+
+.BigTitle {
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+.SmallTitle {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.NoticeOne {
+	font-size: 15px;
+	text-decoration: none;
+	position: absolute;
+	bottom: 10px;
+	left: 200px;
+}
