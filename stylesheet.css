@@ -1,9 +1,8 @@
 
-@import 'https://fonts.googleapis.com/css?family=Oswald:700'; 
 
 body {
-	font-family: Oswald, Rockwell, Tahoma, sans-serif;
-	background-color: #9e379f;
+	font-family: 'Alata', Rockwell, Tahoma, sans-serif;
+	background-color: #fffff9;
 }
 
 a, a:onclick {
@@ -14,20 +13,24 @@ a, a:onclick {
 #TopLine {
 	font-size: 40px;
 	float: left;
-	color: #7bb3ff;
+	color: #fffff9;
 	position: absolute;
 	left: 40px;
+	top: 20%;
+	text-decoration: underline;
+	text-decoration-color: #b2b1b1;
 }
 
 .header {
-	height: 100px;
+	height: 20vh;
 	max-width: 100%;
 	position: fixed;
     left: 0px;
     right: 0px;
     top: 0px;
-    background-color: #9e379f;
+    background-color: #9dabdf;
     z-index: 10000;
+    border-bottom: 1px solid #bbbbbb;
 }
 
 .Spaced {
@@ -41,6 +44,7 @@ a, a:onclick {
 	font-size: 30px;
 	color: #1a2327;
 	text-decoration: none;
+	width: 50vw;
 }
 
 .follows:hover {
@@ -56,7 +60,8 @@ a, a:onclick {
 	margin: auto;
 	bottom: 20px;
 	background-color: #7bb3ff;
-	
+	border: 2px solid #b9daee;
+	border-radius: 2%;
 }
 
 .MyFace {
