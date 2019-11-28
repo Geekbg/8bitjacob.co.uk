@@ -34,35 +34,66 @@ a, a:onclick {
 }
 
 .Spaced {
-	height: 150px;
+	height: 20vh;
 	max-width: 100%;
 	background-color: transparent;
+	position: relative;
+	top: 0vh;
 }
 
 .follows {
-	display: block;
+	display: inline-block;
+    text-align: left;
 	font-size: 30px;
 	color: #1a2327;
-	text-decoration: none;
-	width: 50vw;
-	font-family: 'Ibarra Real Nova', Arial, sans-serif, serif;
+	text-decoration: underline;
+	width: auto;
+	font-family: 'Tomorrow', Arial, sans-serif, serif;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 10px;
 }
 
+/*
 .follows:hover {
 	color: #fff;
 	font-size: 35px;
 	border: 1px dashed #fff;
-} 
+	padding-bottom: 20px;
+}  */
+
+.middle-dot {
+	position: relative;
+	font-size: 30px;
+	color: #1a2327;
+	text-align: left;
+	display: inline-block;
+}
+
+.opener {
+	font-size: 20px;
+	transform: rotate(90deg);
+	position: relative;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	color: #fff;
+	background-color: transparent;
+}
+
+.opener:hover {border-width: 3px;}
+
+.opener:active {background-color: #fff; color: #000;}
 
 .centered {
 	height: auto;
-	width: 1300px;
+	width: 95vw;
 	display: block;
 	margin: auto;
+	padding-bottom: 10vh;
 	bottom: 20px;
 	background-color: #7bb3ff;
 	border: 2px solid #b9daee;
-	border-radius: 2%;
+	border-radius: 35px;
 }
 
 .MyFace {
@@ -94,6 +125,7 @@ a, a:onclick {
 
 .SomeText {
 	font-size: 20px;
+	font-family: 'Ibarra Real Nova', sans-serif, serif;
 }
 
 .ScreenShot {
