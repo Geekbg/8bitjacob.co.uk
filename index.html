@@ -1,27 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>8 Bit Jacob</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Bit Jacob</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Alata|Ibarra+Real+Nova|Tomorrow&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
-		<h1 id="TopLine">Jacob Russell</h1>
-		<link href="https://fonts.googleapis.com/css?family=Alata|Ibarra+Real+Nova|Tomorrow&display=swap" rel="stylesheet">
-	</header>
-	<div class="Spaced"></div>
-	<div class="centered">
-	
+    <main>
+        <header>
+            <h1>Jacob Russell</h1>
+        </header>
+        <section id="about">
+            <button><span>v</span></button>
+            <h2>About</h2>
+            <div class="content">
+                <p>My name is Jacob and I am student with experience in multiple programming languages, and in the future aim to expand on current knowledge in free time. I have been practising and doing online courses for sparsely for roughly six years and in that time have become proficient in HTML, CSS, JavaScript and Python, with more in the pipeline.</p>
+                <p>I am currently studying Further Mathematics, Physics and Chemistry, with the intention of embarking on a career in Biomedical or Software Engineering. I have worked (unprofessionally) with other Web Developers and organisations attended multiple hack days, to further branch experience and social skills.</p>
+            </div>
+        </section>
+        <section id="projects">
+                <button><span>v</span></button>
+            <h2>Projects</h2>
+            <div class="content">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id bibendum sem. Nullam eu mauris id nisi malesuada porttitor. Vestibulum rhoncus lectus finibus turpis ultricies pharetra. Sed vestibulum, urna ut tincidunt lobortis, velit ante varius tortor, non tempor metus lorem convallis urna. Suspendisse sed ex mattis, scelerisque tortor blandit, rhoncus sem. Sed nec ex eu sem pellentesque tincidunt. Nam tortor orci, molestie ut varius vel, dapibus et massa. Fusce at pretium orci, nec rhoncus odio. Fusce at nunc eu orci ornare venenatis. Pellentesque auctor enim in eros accumsan, sit amet auctor ligula blandit. Sed non consectetur metus. Donec lectus odio, sodales ut posuere eget, vulputate in augue.</p>
+                <p>In efficitur sem a tincidunt ultricies. Donec luctus augue odio, vel tincidunt lacus efficitur quis. Maecenas pretium tortor rhoncus eros congue cursus. Praesent mattis velit ut nisl finibus rhoncus. Nunc ut leo lacus. Vestibulum ut lectus et elit bibendum efficitur. Nulla semper dui non auctor facilisis. In eros augue, egestas eu faucibus sed, lobortis nec turpis. Integer vitae commodo orci, egestas accumsan turpis. Nam semper dapibus est id lobortis. </p>
+            </div>
+        </section>
+        <section id="links">
+                <button><span>v</span></button>
+            <h2>Links</h2>
+            <div class="content"> 
+            </div>
+        </section>
+        <footer>
 
-		<!-- These are Accordians - &#183; is middle-dot -->
-		<p class="middle-dot">&#183; </p><a href="about.html" class="follows">About me</a>
-		<button class="opener">></button><br>
-		<p class="middle-dot">&#183; </p><a href="projects.html" class="follows">Projects</a>
-		<button class="opener">></button><br>
-		<p class="middle-dot">&#183; </p><a href="links.html" class="follows">Links</a>
-		<button class="opener">></button><br>
+        </footer>
+    </main>
+    <script>
 
+        // First of all get the buttons
+        let buttons = document.querySelectorAll('section > button');
 
-	</div>
+        // Loop over the buttons so we can do something for each one
+        buttons.forEach((button) => {
+            // When clicking this one button...
+            button.addEventListener('click', (e) => {
+                // Toggle the class on and off
+                button.parentElement.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>

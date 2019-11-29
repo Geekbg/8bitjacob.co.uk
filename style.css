@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 16px;
+    }
+}
+main {
+    margin: 0 auto;
+    color: #fff;
+}
+
+header {
+    background-color: #9dabdf;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    border-radius: 2rem;
+    background-color: #7bb3ff;
+    padding: 1rem;
+    margin: 0 1rem 1rem;
+    position: relative;
+}
+
+h1 {
+    font-family: Alata, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: Tomorrow, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: sans-serif;
+}
+
+section > button {
+    background-color: transparent;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0.75rem;
+    height: 2rem;
+    width: 100%;
+    border: 0;
+    padding: 0 1rem 0 0;
+    text-align: right;
+    outline: none;
+}
+
+button span {
+    display: inline-block;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 2.5rem;
+    cursor: pointer;
+    transition: .2s;
+}
+section.active button span {
+    background-color: #fff;
+    color: #7bb3ff;
+}
+.content {
+    display: none;
+}
+
+section.active .content {
+    display: block;
+}
+
+section.active h2 {
+    text-decoration: underline;
+}
