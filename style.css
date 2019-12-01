@@ -85,6 +85,12 @@ section.active button span {
 }
 .content {
     display: none;
+    overflow: hidden;
+}
+
+.content img {
+    float:left;
+    margin: 1em;
 }
 
 section.active .content {
