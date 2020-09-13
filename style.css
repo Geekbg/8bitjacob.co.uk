@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -25,7 +27,36 @@ main {
 header {
     background-color: #9dabdf;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 2vh;
+    border-radius: 5rem;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    vertical-align: middle;
+}
+
+.ini8, .iniJ, .iniB {
+    font-family: 'Press Start 2P';
+    position: relative;
+    display: block;
+    font-size: 40px;
+    text-align: center;
+}
+.ini8{float: left;left: 34vw;top: 5vh;}
+.iniJ{float: right;right: 34vw;top: 5vh;}
+.iniB{padding-top: 1rem;}
+
+.face {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: static;
+    margin: 0 auto;
+    border: 0.1rem solid white;
+    display: block;
 }
 
 section {
@@ -95,6 +126,7 @@ section.active button span {
 
 section.active .content {
     display: block;
+    padding-top: 2vh;
 }
 
 section.active h2 {
