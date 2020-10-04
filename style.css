@@ -24,6 +24,14 @@ main {
     color: #fff;
 }
 
+img {
+    width: 30vw;
+    height: auto;
+    float: left;
+    display: block;
+    margin-left: 10vw;
+}
+
 header {
     background-color: #9dabdf;
     padding: 1rem;
