@@ -43,14 +43,15 @@ header {
     display: block;
     font-size: 40px;
     text-align: center;
+    background-color: black;
 }
-.ini8{float: left;left: 34vw;top: 5vh;}
-.iniJ{float: right;right: 34vw;top: 5vh;}
+.ini8{float: left;left: 0%;padding-top: 6%;width: 42%;text-align: right;}
+.iniJ{float: right;right: 0%;padding-top: 6%;width: 42%;text-align: left;}
 .iniB{padding-top: 1rem;}
 
 .face {
-    height: 150px;
-    width: 150px;
+    height: 40%;
+    width: auto;
     border-radius: 100%;
     overflow: hidden;
     position: static;
