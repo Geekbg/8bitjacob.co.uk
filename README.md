@@ -1,4 +1,4 @@
-# 8bitjacob.co.uk
+# 8bitjacob.co.uk (WIP)
 The gh-pages behind my site
 
 My name is Jacob and I am currently training in multiple programming languages and skills to further my knowledge and experience with the industry. This is acting as a sort of portfolio for any projects I end up working on.
